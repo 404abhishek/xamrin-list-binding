@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:listview"
+             xmlns:local1="clr-namespace:listview.datamodal"
+             x:Class="listview.MainPage" >
+             <ContentPage.BindingContext>
+        <local1:datamodal/>
+    </ContentPage.BindingContext>
+            
+
+        <StackLayout>
+            <!-- Place new controls here -->
+            <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+            <ListView x:Name="test" ItemsSource="{Binding name}" HasUnevenRows="True"  SeparatorVisibility="None" IsPullToRefreshEnabled="False">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10" >
+                            <Frame HasShadow="True">
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding image}" WidthRequest="50" HeightRequest="50" ></Image>
+                                    <StackLayout VerticalOptions="Center">
+                                        <Label VerticalOptions="Center" Text="{Binding title}"></Label>
+                                        <Label VerticalOptions="Start" Text="{Binding price}"></Label>
+                                        <Label VerticalOptions="EndAndExpand" Text="{Binding category}"></Label>
+                                    </StackLayout>
+                                    <StackLayout VerticalOptions="Center" HorizontalOptions="EndAndExpand" >
+                                        <Image HorizontalOptions="End" Source="cart.png"  WidthRequest="30" HeightRequest="30">
+                                            
+                                        </Image>
+                                        <Button Text="Buy" VerticalOptions="EndAndExpand" HorizontalOptions="End" Clicked="Button_Clicked"  BindingContext="{Binding id}  "> </Button>
+            
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                           
+                        </Grid>
+                    </ViewCell>
+                    
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+ 
+   
+
+</ContentPage>

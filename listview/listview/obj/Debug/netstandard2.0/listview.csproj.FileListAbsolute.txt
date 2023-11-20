@@ -1,0 +1,12 @@
+C:\Users\abhi\source\repos\listview\listview\listview\bin\Debug\netstandard2.0\listview.deps.json
+C:\Users\abhi\source\repos\listview\listview\listview\bin\Debug\netstandard2.0\listview.dll
+C:\Users\abhi\source\repos\listview\listview\listview\bin\Debug\netstandard2.0\listview.pdb
+C:\Users\abhi\source\repos\listview\listview\listview\obj\Debug\netstandard2.0\listview.csprojAssemblyReference.cache
+C:\Users\abhi\source\repos\listview\listview\listview\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\abhi\source\repos\listview\listview\listview\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\abhi\source\repos\listview\listview\listview\obj\Debug\netstandard2.0\listview.csproj.CoreCompileInputs.cache
+C:\Users\abhi\source\repos\listview\listview\listview\obj\Debug\netstandard2.0\listview.AssemblyInfoInputs.cache
+C:\Users\abhi\source\repos\listview\listview\listview\obj\Debug\netstandard2.0\listview.AssemblyInfo.cs
+C:\Users\abhi\source\repos\listview\listview\listview\obj\Debug\netstandard2.0\listview.dll
+C:\Users\abhi\source\repos\listview\listview\listview\obj\Debug\netstandard2.0\listview.pdb
+C:\Users\abhi\source\repos\listview\listview\listview\obj\Debug\netstandard2.0\XamlC.stamp
